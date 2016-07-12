@@ -156,6 +156,8 @@ class UberRidesClient(object):
                 The latitude component of a end location.
             end_longitude (float)
                 The longitude component of a end location.
+            seat_count (int)
+                The number of seats required for uberPOOL. Default and maximum value is 2.
 
         Returns
             (Response)
